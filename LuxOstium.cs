@@ -10,7 +10,7 @@ public class LuxOstium : MonoBehaviour
     [SerializeField] private float FechaVelo;
 
     public boot IsOpen;
-    public boot IsOn;
+    public boot In;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -51,4 +51,18 @@ public class LuxOstium : MonoBehaviour
                 }
             }
         }
-}
+        
+    }
+
+    public void MutareLux()
+    {
+        In = !In;
+
+        if (In) {
+            Lux.SetActive(true);
+        }
+        else
+        {
+            Lux.SetActive(false);
+        }
+    }
