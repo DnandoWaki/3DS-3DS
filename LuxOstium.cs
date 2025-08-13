@@ -30,26 +30,21 @@ public class LuxOstium : MonoBehaviour
                 if (Vector3.Distance(transform.position, OpenOs) <= 0.5f)
                 {
                     transform.position = OpenOs;
+                    return;
                 }
-                else
-                {
-                    transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
-                }
+                transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
             }
+            return;
         }
-        else {
-            if (transform.position != CloseOs)
-            {
+        if (transform.position != CloseOs)
+        {
 
-                if (Vector3.Distance(transform.position, CloseOs) <= 0.5f)
-                {
-                    transform.position = CloseOs;
-                }
-                else
-                {
-                    transform.position = Vector3.Lerp(transform.position, CloseOs, FechaVelo * Time.deltaTime);
-                }
+            if (Vector3.Distance(transform.position, CloseOs) <= 0.5f)
+            {
+                transform.position = CloseOs;
+                return;
             }
+            transform.position = Vector3.Lerp(transform.position, CloseOs, FechaVelo * Time.deltaTime);
         }
         
     }
@@ -58,11 +53,10 @@ public class LuxOstium : MonoBehaviour
     {
         In = !In;
 
-        if (In) {
-            Lux.SetActive(true);
-        }
-        else
+        if (In)
         {
-            Lux.SetActive(false);
+            Lux.SetActive(true);
+            return;
         }
+        Lux.SetActive(false);
     }
