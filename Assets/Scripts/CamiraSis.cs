@@ -4,23 +4,26 @@ public class CamiraSis : MonoBehaviour
 {
     [SerializeField] private GameObject[] Came;
     [SerializeField] private int AtualCame;
-    [SerializeField] public Keycode AbrirCame;
+    [SerializeField] public KeyCode AbrirCame;
     [SerializeField] private bool CameAbert;
 
-    void start()
+    void Start()
     {
         Came[AtualCame].SetActive(false);
     }
 
-    void update()
+    void Update()
     {
-        if (Input.SetKeyDown(AbrirCame))
+        if (Input.GetKeyDown(AbrirCame))
         {
             CameAbert = !CameAbert;
-            ShowCame():
+            ShowCame();
         }
 
-        if
+        if(Input.GetKeyUp(AbrirCame))
+        {
+
+        }
     }
 
     private void ShowCame()

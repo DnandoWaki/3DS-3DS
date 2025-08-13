@@ -7,14 +7,14 @@ public class OstiumCont : MonoBehaviour
 
     private void OnMouseDown()
     {
-        LuxOstium.IsOpen = !LuxOstium.IsOpen
+        LuxOstium.IsOpen = !LuxOstium.IsOpen;
         // LuxOstium.GetComponent<AudioSource>().Dorta();
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode))
+        if (Input.GetKeyDown(AbrirPor))
         {
-            LuxOstium.IsOpen = !LuxOstium.IsOpen
+            LuxOstium.IsOpen = !LuxOstium.IsOpen;
         // LuxOstium.GetComponent<AudioSource>().Dorta();  
         }
     }

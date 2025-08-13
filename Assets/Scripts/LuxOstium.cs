@@ -9,8 +9,8 @@ public class LuxOstium : MonoBehaviour
 
     [SerializeField] private float FechaVelo;
 
-    public boot IsOpen;
-    public boot In;
+    public bool IsOpen;
+    public bool In;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,7 +46,7 @@ public class LuxOstium : MonoBehaviour
             }
             transform.position = Vector3.Lerp(transform.position, CloseOs, FechaVelo * Time.deltaTime);
         }
-        
+
     }
 
     public void MutareLux()
@@ -60,3 +60,4 @@ public class LuxOstium : MonoBehaviour
         }
         Lux.SetActive(false);
     }
+}
