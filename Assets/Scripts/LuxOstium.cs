@@ -12,11 +12,15 @@ public class LuxOstium : MonoBehaviour
     public bool IsOpen;
     public bool In;
 
+    [SerializeField] private Electrica Força;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         transform.position = OpenOs;
         IsOpen = true;
+
+        MutareLux();
     }
 
     // Update is called once per frame
@@ -56,8 +60,10 @@ public class LuxOstium : MonoBehaviour
         if (In)
         {
             Lux.SetActive(true);
+            Força.SisIn += 1;
             return;
         }
         Lux.SetActive(false);
+        Força.SisIn -= 1;
     }
 }

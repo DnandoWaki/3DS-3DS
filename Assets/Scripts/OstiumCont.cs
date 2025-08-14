@@ -9,13 +9,25 @@ public class OstiumCont : MonoBehaviour
     {
         LuxOstium.IsOpen = !LuxOstium.IsOpen;
         // LuxOstium.GetComponent<AudioSource>().Dorta();
+        if (LuxOstium.IsOpen)
+        {
+            Força.SisIn += 1;
+            return
+            }
+        Força.SisIn -= 1;
     }
     void Update()
     {
         if (Input.GetKeyDown(AbrirPor))
         {
             LuxOstium.IsOpen = !LuxOstium.IsOpen;
-        // LuxOstium.GetComponent<AudioSource>().Dorta();  
+            // LuxOstium.GetComponent<AudioSource>().Dorta();  
+            if (LuxOstium.IsOpen)
+            {
+                Força.SisIn += 1;
+                return
+            }
+             Força.SisIn -= 1;
         }
     }
 }
