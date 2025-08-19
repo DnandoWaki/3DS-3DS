@@ -4,7 +4,7 @@ public class OstiumCont : MonoBehaviour
 {
     [SerializeField] private LuxOstium LuxOstium;
     public KeyCode AbrirPor = KeyCode.LeftControl;
-
+    [SerializeField] private Electrica Força;
     private void OnMouseDown()
     {
         LuxOstium.IsOpen = !LuxOstium.IsOpen;

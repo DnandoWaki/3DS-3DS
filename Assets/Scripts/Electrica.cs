@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Electrica : MonoBehaviour
 {
-    public int SisIn;nbv 
+    public int SisIn;
 
     [SerializeField] private float Força = 100;
 
