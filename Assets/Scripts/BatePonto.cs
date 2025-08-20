@@ -10,7 +10,7 @@ public class BatePonto : MonoBehaviour
 
     [SerializeField] private float TempoMult = 2f;
 
-    [SerializeField] private TextMeshProUGUI HoroloTexto;
+    //[SerializeField] private TextMeshProUGUI HoroloTexto;
 
     [SerializeField] private GameObject NikeScreen;
 
@@ -37,9 +37,9 @@ public class BatePonto : MonoBehaviour
                 horas = 12;
             }
 
-            DigitalClock = string.Format("{0:00}:{1:00}", horas, minutos);
+            Horologium = string.Format("{0:00}:{1:00}", horas, minutos);
 
-            HoroloTexto.text = Horologium;
+            //HoroloTexto.text = Horologium;
 
             if (horas >= PontoAcaba)
             {

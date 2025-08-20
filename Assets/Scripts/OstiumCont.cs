@@ -12,7 +12,7 @@ public class OstiumCont : MonoBehaviour
         if (LuxOstium.IsOpen)
         {
             Força.SisIn += 1;
-            return
+            return;
             }
         Força.SisIn -= 1;
     }
@@ -25,7 +25,7 @@ public class OstiumCont : MonoBehaviour
             if (LuxOstium.IsOpen)
             {
                 Força.SisIn += 1;
-                return
+                return;
             }
              Força.SisIn -= 1;
         }

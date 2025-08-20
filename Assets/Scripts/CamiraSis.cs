@@ -35,7 +35,7 @@ public class CamiraSis : MonoBehaviour
         {
             if (Input.GetKeyDown(TrocaCame1))
             {
-                Came[AtualCame1].SetActive(false);
+                Came[AtualCame].SetActive(false);
                 AtualCame = AtualCame + 1;
                 if (AtualCame >= Came.Length) 
                 {
@@ -46,7 +46,7 @@ public class CamiraSis : MonoBehaviour
             }
             else if(Input.GetKeyDown(TrocaCame2))
             {
-                Came[AtualCame1].SetActive(false);
+                Came[AtualCame].SetActive(false);
                 AtualCame = AtualCame - 1;
                 if (AtualCame < 0)
                 {

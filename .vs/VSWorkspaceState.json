@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assets",
+    "\\Assets\\Scripts"
   ],
-  "SelectedNode": "\\3DS-3DS.sln",
+  "SelectedNode": "\\Assets\\Scripts\\AnimeMov.cs",
   "PreviewInSolutionExplorer": false
 }

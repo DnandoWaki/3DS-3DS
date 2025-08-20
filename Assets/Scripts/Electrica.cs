@@ -4,7 +4,7 @@ public class Electrica : MonoBehaviour
 {
     public int SisIn;
 
-    [SerializeField] private float Força = 100;
+    [SerializeField] private double Força = 100;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,8 +19,9 @@ public class Electrica : MonoBehaviour
         {
             Força -= 0.1 * Time.deltaTime;
         }
-        else 
+        else
         {
-            Força -= (SisIn)/2 * Time.deltaTime;
+            Força -= (SisIn) / 2 * Time.deltaTime;
         }
+    }
 }

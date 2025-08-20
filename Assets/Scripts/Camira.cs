@@ -18,7 +18,7 @@ public class Camira : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DistOlhar = Mathf.Clamp(DistOlhar + Input.GetAxis("Mouse X") * CameraSense, MaxMoviCara, MinMoviCara);
+        DistOlhar = Mathf.Clamp(DistOlhar + Input.GetAxis("Mouse X") * CameraSense, MinMoviCara, MaxMoviCara);
 
         transform.localRotation = Quaternion.Euler(0f, DistOlhar, 0f);
     }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class AnimeSis : MonoBehaviour
 {
 
-    [SerializeField] private NavMeshAgent NMA;
+    [SerializeField] private UnityEngine.AI.NavMeshAgent NMA;
 
     [SerializeField] private GameObject[] Alvo;
 
@@ -11,14 +11,14 @@ public class AnimeSis : MonoBehaviour
 
     void Start()
     {
-        NMA = GetComponent<NavMeshAgent>();
+        NMA = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
-    void update()
+    void Update()
     { 
-        if(vector3.distance(transform.position, Alvo[AlvoAtual].transform.position) <= 0,5f)
+        if(Vector3.Angle(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
             {
             AlvoAtual += 1;
-            if (AlvoAtual >= Alvo.length)
+            if (AlvoAtual == 0)
                 {
                 AlvoAtual = 0;
                 }
