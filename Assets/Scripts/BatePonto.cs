@@ -1,4 +1,4 @@
-using UnityEngine;
+    using UnityEngine;
 
 public class BatePonto : MonoBehaviour
 {
@@ -41,7 +41,7 @@ public class BatePonto : MonoBehaviour
 
             HoroloTexto.text = Horologium;
 
-            if (horas == 6)
+            if (horas >= PontoAcaba)
             {
                 NikeScreen.SetActive(true);
                 Veceu = true;
