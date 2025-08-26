@@ -3,8 +3,10 @@ using UnityEngine;
 public class Electrica : MonoBehaviour
 {
     public int SisIn;
+    //Força
+    [SerializeField] private double Forca = 100;
 
-    [SerializeField] private double Força = 100;
+    [SerializeField] private TextMeshProGUI EnergiaText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,11 +19,14 @@ public class Electrica : MonoBehaviour
     {
         if (SisIn == 1)
         {
-            Força -= 0.1 * Time.deltaTime;
+            Forca -= 0.1 * Time.deltaTime;
         }
         else
         {
-            Força -= (SisIn) / 2 * Time.deltaTime;
+            Forca -= (SisIn) / 2 * Time.deltaTime;
         }
+
+        var forca = string.Format("{0:0}", Forca);
+        EnergiaText.text = $"{forca}%";
     }
 }
