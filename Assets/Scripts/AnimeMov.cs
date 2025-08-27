@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AnimeMov : MonoBehaviour
 {
-    [SerializeField] private int[] pontos;
+    [SerializeField] private int[] Pontos;
 
     public bool LaPuerta;
     public bool TheOffice;

@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class OstiumCont : MonoBehaviour
 {
-    [SerializeField] private LuxOstium LuxOstium;
+    [SerializeField] private LuxOstium Ostium;
     public KeyCode AbrirPor = KeyCode.LeftControl;
     [SerializeField] private Electrica Forca;
     private void OnMouseDown()
     {
-        LuxOstium.IsOpen = !LuxOstium.IsOpen;
-        // LuxOstium.GetComponent<AudioSource>().Dorta();
-        if (LuxOstium.IsOpen)
+        Ostium.IsOpen = !Ostium.IsOpen;
+        Ostium.GetComponent<AudioSource>().Play();
+        if (Ostium.IsOpen)
         {
             Forca.SisIn -= 1;
             return;
@@ -20,9 +20,9 @@ public class OstiumCont : MonoBehaviour
     {
         if (Input.GetKeyDown(AbrirPor))
         {
-            LuxOstium.IsOpen = !LuxOstium.IsOpen;
-            // LuxOstium.GetComponent<AudioSource>().Dorta();  
-            if (LuxOstium.IsOpen)
+            Ostium.IsOpen = !Ostium.IsOpen;
+            Ostium.GetComponent<AudioSource>().Play();  
+            if (Ostium.IsOpen)
             {
                 Forca.SisIn -= 1;
                 return;

@@ -31,9 +31,9 @@ public class AnimeSis : MonoBehaviour
             {
                 if (Vector3.Distance(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
                 {
-                    if (Targets[AlvoAtual].GetComponent<>().LaPuerta)
+                    if (Alvo[AlvoAtual].GetComponent<AnimeMov>().LaPuerta)
                     {
-                        if (Targets[AlvoAtual].GetComponent<>().Puerta.IsOpen)
+                        if (Alvo[AlvoAtual].GetComponent<AnimeMov>().Puerta.IsOpen)
                         {
                             AlvoAtual = Alvo.Length - 1;
                         }
@@ -42,7 +42,7 @@ public class AnimeSis : MonoBehaviour
                             AlvoAtual = 1;
                         }
                     }
-                    else if (Targets[AlvoAtual].GetComponent<>().TheOffice)
+                    else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
                     {
                         Debug.Log("Mamadas Marquinenses");
                     }
