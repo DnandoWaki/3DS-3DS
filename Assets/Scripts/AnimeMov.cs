@@ -7,5 +7,5 @@ public class AnimeMov : MonoBehaviour
     public bool LaPuerta;
     public bool TheOffice;
 
-    [SerializeField] private LuxOstium Puerta;
+    public LuxOstium Puerta;
 }

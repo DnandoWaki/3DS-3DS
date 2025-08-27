@@ -6,7 +6,7 @@ public class Electrica : MonoBehaviour
     //Força
     [SerializeField] private double Forca = 100;
 
-    [SerializeField] private TextMeshProGUI EnergiaText;
+    //[SerializeField] private TextMeshProGUI EnergiaText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

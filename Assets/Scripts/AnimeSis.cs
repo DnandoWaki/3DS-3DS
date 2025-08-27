@@ -9,20 +9,60 @@ public class AnimeSis : MonoBehaviour
 
     [SerializeField] private int AlvoAtual;
 
+    [SerializeField] private float ResfriaTimer;
+    [SerializeField] private float ResfriaTempo;
+
+    [SerializeField] private int ChanceMinMove = 1;
+    [SerializeField] private int ChanceMaxMove = 20;
+
+    [SerializeField] private int LevelAnime = 3;
+
     void Start()
     {
         NMA = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
     void Update()
-    { 
-        if(Vector3.Angle(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
+    {
+        if (ResfriaTempo <= 0)
+        {
+            var chanceCheck = Random.Range(ChanceMinMove, ChanceMaxMove);
+
+            if(chanceCheck <= LevelAnime)
             {
-            AlvoAtual += 1;
-            if (AlvoAtual == 0)
+                if (Vector3.Distance(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
                 {
-                AlvoAtual = 0;
+                    if (Targets[AlvoAtual].GetComponent<>().LaPuerta)
+                    {
+                        if (Targets[AlvoAtual].GetComponent<>().Puerta.IsOpen)
+                        {
+                            AlvoAtual = Alvo.Length - 1;
+                        }
+                        else
+                        {
+                            AlvoAtual = 1;
+                        }
+                    }
+                    else if (Targets[AlvoAtual].GetComponent<>().TheOffice)
+                    {
+                        Debug.Log("Mamadas Marquinenses");
+                    }
+                    else
+                    {
+                        AlvoAtual += 1;
+                        if (AlvoAtual >= Alvo.Length)
+                        {
+                            AlvoAtual = 0;
+                        }
+                    }
                 }
             }
+            
+            ResfriaTimer = ResfriaTempo;
+        }
+        else 
+        { 
+            ResfriaTimer -= Time.deltaTime;
+        }
     NMA.destination = Alvo[AlvoAtual].transform.position;
     }
 }
