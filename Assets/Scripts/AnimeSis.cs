@@ -10,7 +10,8 @@ public class AnimeSis : MonoBehaviour
     [SerializeField] private int AlvoAtual;
 
     [SerializeField] private float ResfriaTimer;
-    [SerializeField] private float ResfriaTempo;
+    [SerializeField] private float MinResfriaTempo;
+    [SerializeField] private float MaxResfriaTempo;
 
     [SerializeField] private int ChanceMinMove = 1;
     [SerializeField] private int ChanceMaxMove = 20;
@@ -57,6 +58,7 @@ public class AnimeSis : MonoBehaviour
                 }
             }
             
+            var ResfriaTempo = Random.Range(MinResfriaTempo, MaxResfriaTempo);
             ResfriaTimer = ResfriaTempo;
         }
         else 
