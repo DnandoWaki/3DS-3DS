@@ -24,7 +24,7 @@ public class AnimeSis : MonoBehaviour
     }
     void Update()
     {
-        if (ResfriaTempo <= 0)
+        if (ResfriaTimer <= 0)
         {
             var chanceCheck = Random.Range(ChanceMinMove, ChanceMaxMove);
 
