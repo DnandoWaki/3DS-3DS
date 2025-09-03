@@ -74,7 +74,7 @@ public class CamiraSis : MonoBehaviour
         MainCamera.SetActive(true);
     }
 
-    private void VaiPaCame(int Progession)
+    public void VaiPaCame(int Progession)
     {
         Came[AtualCame].SetActive(false);
         AtualCame = Progession;
