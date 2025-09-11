@@ -1,4 +1,5 @@
-    using UnityEngine;
+using TMPro;
+using UnityEngine;
 
 public class BatePonto : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class BatePonto : MonoBehaviour
 
     [SerializeField] private float TempoMult = 2f;
 
-    //[SerializeField] private TextMeshProUGUI HoroloTexto;
+    [SerializeField] private TextMeshProUGUI HoroloTexto;
 
     [SerializeField] private GameObject NikeScreen;
 
@@ -32,6 +33,12 @@ public class BatePonto : MonoBehaviour
             var horas = Mathf.FloorToInt(Timer / 60);
             var minutos = Mathf.FloorToInt(Timer - horas * 60);
 
+            if (horas >= PontoAcaba)
+            {
+                NikeScreen.SetActive(true);
+                Veceu = true;
+            }
+
             if (horas == 0)
             {
                 horas = 12;
@@ -39,13 +46,7 @@ public class BatePonto : MonoBehaviour
 
             Horologium = string.Format("{0:00}:{1:00}", horas, minutos);
 
-            //HoroloTexto.text = Horologium;
-
-            if (horas >= PontoAcaba)
-            {
-                NikeScreen.SetActive(true);
-                Veceu = true;
-            }
+            HoroloTexto.text = Horologium;
         }
     }
 }
