@@ -1,4 +1,44 @@
-Library
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+
+# Auto-generated Visual Studio files
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Crash reports
+sysinfo.txt
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Cache Server
+Cache/
+
+# FileContentIndex (optional if you don't ignore Library/)
+FileContentIndex/
+
+# Auto-generated audio importer cache
+*.audiocache
+
 UpgradeLog.htm
 UpgradeLog*.htm
 UpgradeLog**.htm
