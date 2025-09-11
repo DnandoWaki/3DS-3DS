@@ -5,6 +5,7 @@
 [Bb]uild/
 [Bb]uilds/
 UserSettings/
+Logs/
 
 # Auto-generated Visual Studio files
 .vs/
