@@ -67,4 +67,9 @@ public class AnimeSis : MonoBehaviour
         }
     NMA.destination = Alvo[AlvoAtual].transform.position;
     }
+
+    public void RestartCena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
