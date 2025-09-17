@@ -26,6 +26,10 @@ public class LuxOstium : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Forca.Forca >= 0)
+        {
+            return;
+        }
         if (IsOpen)
         {
             if (transform.position != OpenOs)

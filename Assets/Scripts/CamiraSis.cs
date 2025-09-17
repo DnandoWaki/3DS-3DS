@@ -12,6 +12,7 @@ public class CamiraSis : MonoBehaviour
     [SerializeField] private float TempoRecarga;
     [SerializeField] private float RecargaTempo = 0.5f;
     [SerializeField] private GameObject CamiraSisIU;
+    [SerializeField] private Electrica Forca;
 
     void Start()
     {
@@ -25,6 +26,12 @@ public class CamiraSis : MonoBehaviour
 
     void Update()
     {
+        if (Forca.Forca >= 0)
+        {
+            CameAbert = false;
+            ShowCame();
+            return;
+        }
         if (Input.GetKeyDown(AbrirCame))
         {
             CameAbert = !CameAbert;

@@ -1,12 +1,13 @@
 using UnityEngine;
+using TMPro;
 
 public class Electrica : MonoBehaviour
 {
     public int SisIn;
     //Força
-    [SerializeField] private double Forca = 100;
+    public float Forca = 100;
 
-    //[SerializeField] private TextMeshProGUI EnergiaText;
+    [SerializeField] private TextMeshProUGUI EnergiaText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,14 +20,14 @@ public class Electrica : MonoBehaviour
     {
         if (SisIn == 1)
         {
-            Forca -= 0.1 * Time.deltaTime;
+            Forca -= 0.1f * Time.deltaTime;
         }
         else
         {
-            Forca -= (SisIn) / 2 * Time.deltaTime;
+            Forca -= (SisIn) / 2f * Time.deltaTime;
         }
 
         var forca = string.Format("{0:0}", Forca);
-        //EnergiaText.text = $"{forca}%";
+        EnergiaText.text = $"{forca}%";
     }
 }

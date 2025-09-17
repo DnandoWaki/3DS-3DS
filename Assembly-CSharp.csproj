@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SpriteBillboard.cs" />
     <Compile Include="Assets\Scripts\Camira.cs" />
+    <Compile Include="Assets\Scripts\CustomNoitada.cs" />
     <Compile Include="Assets\Scripts\LuxCont.cs" />
     <Compile Include="Assets\Scripts\AnimeSis.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
