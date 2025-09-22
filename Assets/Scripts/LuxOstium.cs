@@ -26,7 +26,7 @@ public class LuxOstium : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Forca.Forca >= 0)
+        if (Forca.Forca <= 0)
         {
             return;
         }

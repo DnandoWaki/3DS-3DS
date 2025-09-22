@@ -7,6 +7,10 @@ public class OstiumCont : MonoBehaviour
     [SerializeField] private Electrica Forca;
     private void OnMouseDown()
     {
+        if (Forca.Forca <= 0)
+        {
+            return;
+        }
         Ostium.IsOpen = !Ostium.IsOpen;
         Ostium.GetComponent<AudioSource>().Play();
         if (Ostium.IsOpen)
@@ -18,6 +22,10 @@ public class OstiumCont : MonoBehaviour
     }
     void Update()
     {
+        if (Forca.Forca <= 0)
+        {
+            return;
+        }
         if (Input.GetKeyDown(AbrirPor))
         {
             Ostium.IsOpen = !Ostium.IsOpen;
