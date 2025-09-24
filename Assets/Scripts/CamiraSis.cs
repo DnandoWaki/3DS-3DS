@@ -16,17 +16,18 @@ public class CamiraSis : MonoBehaviour
 
     void Start()
     {
+        CamiraSisIU.SetActive(false);
+        Came[AtualCame].SetActive(false);
         for (int i = 0; 1 < Came.Length; i++)
         {
             Came[i].SetActive(false);
         }
-        CamiraSisIU.SetActive(false);
-        Came[AtualCame].SetActive(false);
+        
     }
 
     void Update()
     {
-        if (Forca.Forca >= 0)
+        if (Forca.Forca <= 0)
         {
             CameAbert = false;
             ShowCame();
