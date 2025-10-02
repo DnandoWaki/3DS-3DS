@@ -38,8 +38,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 538
-    y: 1042
+    x: 1083
+    y: 638
     width: 1904
     height: 1001
   m_ShowMode: 0
@@ -347,8 +347,8 @@ MonoBehaviour:
     y: 0
     width: 433
     height: 941
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -842,9 +842,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 48.205418, y: 20.25731, z: 6.7633033}
+    m_Target: {x: 538.1013, y: -478.94974, z: -1033.1484}
     speed: 2
-    m_Value: {x: 48.205418, y: 20.25731, z: 6.7633033}
+    m_Value: {x: 538.1013, y: -478.94974, z: -1033.1484}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -890,13 +890,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2224505, y: 0.23894116, z: -0.055714734, w: 0.9438685}
+    m_Target: {x: -0.046758454, y: -0.95226055, z: 0.189935, w: -0.23571573}
     speed: 2
-    m_Value: {x: 0.22238724, y: 0.23887321, z: -0.05569889, w: 0.9436001}
+    m_Value: {x: -0.04645901, y: -0.95231605, z: 0.1899457, w: -0.23421404}
   m_Size:
-    m_Target: 9.75969
+    m_Target: 668.87915
     speed: 2
-    m_Value: 9.75969
+    m_Value: 668.87915
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -914,7 +914,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.10262922, y: -0.6479351, z: -0.09117397, w: -0.74935424}
+  m_LastSceneViewRotation: {x: -0.001745114, y: -0.96611017, z: 0.006069954, w: -0.25922105}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 16}
@@ -951,8 +951,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 538
-    y: 1042
+    x: 1083
+    y: 638
     width: 1904
     height: 975
   m_SerializedDataModeController:
@@ -1070,9 +1070,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2ea0000
-      m_LastClickedID: 60066
-      m_ExpandedIDs: 40f3fefffa4affff3853fffffee9000040eb000022ee00005eee0000a6ee0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e44dffffb452ffff0aea0000b8ea000096ee0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1144,7 +1144,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Mapa
+    - Assets/Sprites
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1154,16 +1154,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Mapa
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ETEC\source\repos\3DS-3DS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 90f50000
-    m_LastClickedID: 62864
-    m_ExpandedIDs: 000000007ae900007ee9000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: b8e90000
+    m_LastClickedID: 59832
+    m_ExpandedIDs: 00000000aee90000b2e9000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1218,8 +1218,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: acc20000
+    m_LastClickedInstanceID: 49836
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000046e90000
     m_RenameOverlay:

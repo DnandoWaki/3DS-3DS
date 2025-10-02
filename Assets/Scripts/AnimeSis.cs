@@ -46,7 +46,7 @@ public class AnimeSis : MonoBehaviour
                     }
                     else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
                     {
-                        Debug.Log("Mamadas Marquinenses");
+                        Debug.Log("Morreu");
                     }
                     else
                     {
