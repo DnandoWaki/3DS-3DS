@@ -26,34 +26,50 @@ public class LuxOstium : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Forca.Forca <= 0)
+        if (Forca.Forca > 0)
         {
-            return;
-        }
-        if (IsOpen)
-        {
-            if (transform.position != OpenOs)
+            if (IsOpen)
             {
-
-                if (Vector3.Distance(transform.position, OpenOs) <= 0.5f)
+                if (transform.position != OpenOs)
                 {
-                    transform.position = OpenOs;
-                    return;
-                }
-                transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
-            }
-            return;
-        }
-        if (transform.position != CloseOs)
-        {
 
-            if (Vector3.Distance(transform.position, CloseOs) <= 0.5f)
-            {
-                transform.position = CloseOs;
+                    if (Vector3.Distance(transform.position, OpenOs) <= 0.5f)
+                    {
+                        transform.position = OpenOs;
+                        return;
+                    }
+                    transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
+                }
                 return;
             }
-            transform.position = Vector3.Lerp(transform.position, CloseOs, FechaVelo * Time.deltaTime);
+            if (transform.position != CloseOs)
+            {
+
+                if (Vector3.Distance(transform.position, CloseOs) <= 0.5f)
+                {
+                    transform.position = CloseOs;
+                    return;
+                }
+                transform.position = Vector3.Lerp(transform.position, CloseOs, FechaVelo * Time.deltaTime);
+            }
         }
+        else 
+        {
+            IsOpen = true;
+            if (transform.position != OpenOs)
+                {
+
+                    if (Vector3.Distance(transform.position, OpenOs) <= 0.5f)
+                    {
+                        transform.position = OpenOs;
+                        return;
+                    }
+                    transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
+                }
+            In = true;
+            MutareLux();
+        }
+        
 
     }
 

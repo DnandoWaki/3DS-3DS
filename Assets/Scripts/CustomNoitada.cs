@@ -6,6 +6,7 @@ public class CustomNoitada : MonoBehaviour
 {
     [SerializeField] private int[] LevelAgress;
     [SerializeField] private TextMeshProUGUI[] LevelAgressAmostra;
+    [SerializeField] private string[] PrefChave;
 
     void Start()
     {
@@ -48,6 +49,11 @@ public class CustomNoitada : MonoBehaviour
 
     public void ComeçarJogo()
     {
+        for (int i = 0; i < PrefChave.Length; i++)
+        {
+            PlayerPrefs.SetInt(PrefChave[i], LevelAgress[i]);
+        }
 
+        SceneManager.LoadScene(4);
     }
 }

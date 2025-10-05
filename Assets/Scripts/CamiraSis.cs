@@ -10,7 +10,7 @@ public class CamiraSis : MonoBehaviour
     [SerializeField] private bool CameAbert;
     [SerializeField] private GameObject MainCamera;
     [SerializeField] private float TempoRecarga;
-    [SerializeField] private float RecargaTempo = 0.5f;
+    [SerializeField] private float RecargaTempo = 0.1f;
     [SerializeField] private GameObject CamiraSisIU;
     [SerializeField] private Electrica Forca;
 

@@ -29,5 +29,8 @@ public class Electrica : MonoBehaviour
 
         var forca = string.Format("{0:0}", Forca);
         EnergiaText.text = $"{forca}%";
+        if (Forca <= 0) {
+        Forca = 0;
+        }
     }
 }

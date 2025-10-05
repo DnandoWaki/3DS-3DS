@@ -3,7 +3,7 @@ using UnityEngine;
 public class Updater : MonoBehaviour
 {
     [Range(0f, 180f)][SerializeField] float atrasAngle = 65f;
-    [Range(0f, 180f)][SerializeField] float flentAngle = 155f;
+    [Range(0f, 180f)][SerializeField] float LadAngle = 155f;
     [SerializeField] Transform mainTransform;
     [SerializeField] Animator animador;
     [SerializeField] SpriteRenderer spriteRenderer;
@@ -19,7 +19,7 @@ public class Updater : MonoBehaviour
         {
             animationDirection = new Vector2(0f, -1f);
         }
-        else if (angle < signedAngle)
+        else if (angle < LadAngle)
         {
             if (signedAngle < 0)
             {

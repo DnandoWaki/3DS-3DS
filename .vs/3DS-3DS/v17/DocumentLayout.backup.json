@@ -1,58 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\",
+  "WorkspaceRootPath": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OstiumCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstDel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LuxOstDel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\SpriteBillboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpriteBillboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CamiraSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LuxCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Camira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Electrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Electrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|c:\\users\\windows 10\\source\\repos\\3ds-3ds\\assets\\scripts\\electrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\electrica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CamiraSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\OstiumCont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Camira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\LuxOstium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\assets\\scripts\\luxcont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\luxcont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LuxOstium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AnimeMov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\AnimeMov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,78 +54,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Updater.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Updater.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Updater.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Updater.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Updater.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T17:46:03.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OstiumCont.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\OstiumCont.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs",
-              "RelativeToolTip": "Assets\\Scripts\\OstiumCont.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Menu.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Menu.cs*",
+              "RelativeToolTip": "Assets\\Menu.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:52.242Z",
+              "WhenOpened": "2025-10-04T17:21:32.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpriteBillboard.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\SpriteBillboard.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteBillboard.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\SpriteBillboard.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpriteBillboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "LuxOstium.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LuxOstium.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LuxOstium.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:54.013Z"
+              "WhenOpened": "2025-08-27T17:00:21.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LuxOstDel.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstDel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LuxOstDel.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstDel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LuxOstDel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Camira.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camira.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camira.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T17:55:10.317Z",
+              "WhenOpened": "2025-08-27T17:00:37.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CustomNoitada.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomNoitada.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CustomNoitada.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "CamiraSis.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamiraSis.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamiraSis.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA3wAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:05:16.86Z"
+              "WhenOpened": "2025-08-27T17:00:41.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Electrica.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Electrica.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Electrica.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Electrica.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Electrica.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:00:44.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BatePonto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BatePonto.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BatePonto.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:00:35.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LuxCont.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxCont.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxCont.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LuxCont.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxCont.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxCont.cs",
               "RelativeToolTip": "Assets\\Scripts\\LuxCont.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -141,91 +147,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Electrica.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Electrica.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Electrica.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Electrica.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Electrica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AnimeSis.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimeSis.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimeSis.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:44.958Z"
+              "WhenOpened": "2025-08-27T16:56:49.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomNoitada.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomNoitada.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomNoitada.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:05:16.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CamiraSis.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CamiraSis.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CamiraSis.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "Title": "OstiumCont.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OstiumCont.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\OstiumCont.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OstiumCont.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:41.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Camira.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camira.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\Camira.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camira.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:37.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BatePonto.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BatePonto.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BatePonto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:35.1Z"
+              "WhenOpened": "2025-08-27T17:00:52.242Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LuxOstium.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LuxOstium.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\LuxOstium.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LuxOstium.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:21.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "AnimeMov.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimeMov.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeMov.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnimeMov.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T16:58:36.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AnimeSis.cs",
-              "DocumentMoniker": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimeSis.cs",
-              "ToolTip": "C:\\Users\\ETEC\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimeSis.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T16:56:49.479Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

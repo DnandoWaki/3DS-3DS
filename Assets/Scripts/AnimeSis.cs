@@ -19,9 +19,17 @@ public class AnimeSis : MonoBehaviour
 
     [SerializeField] private int LevelAnime = 3;
 
+    [SerializeField] private bool isCN;
+    [SerializeField] private string Chave;
+
     void Start()
     {
         NMA = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
+        if (isCN)
+        {
+            LevelAnime = PlayerPrefs.GetInt(Chave, 0);
+        }
     }
     void Update()
     {
@@ -47,6 +55,7 @@ public class AnimeSis : MonoBehaviour
                     else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
                     {
                         Debug.Log("Morreu");
+                        SceneManager.LoadScene(2);
                     }
                     else
                     {

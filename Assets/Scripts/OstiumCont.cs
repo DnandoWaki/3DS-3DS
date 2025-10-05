@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OstiumCont : MonoBehaviour
 {
@@ -7,36 +7,41 @@ public class OstiumCont : MonoBehaviour
     [SerializeField] private Electrica Forca;
     private void OnMouseDown()
     {
-        if (Forca.Forca <= 0)
-        {
-            return;
-        }
-        Ostium.IsOpen = !Ostium.IsOpen;
-        Ostium.GetComponent<AudioSource>().Play();
-        if (Ostium.IsOpen)
-        {
-            Forca.SisIn -= 1;
-            return;
-            }
-        Forca.SisIn += 1;
+        AlternarOstium();
     }
+
     void Update()
     {
-        if (Forca.Forca <= 0)
-        {
-            return;
-        }
         if (Input.GetKeyDown(AbrirPor))
         {
+            AlternarOstium();
+        }
+    }
+
+    private void AlternarOstium()
+    {
+        if (Forca.Forca > 0)
+        {
             Ostium.IsOpen = !Ostium.IsOpen;
-            Ostium.GetComponent<AudioSource>().Play();  
+            Ostium.GetComponent<AudioSource>().Play();
             if (Ostium.IsOpen)
             {
                 Forca.SisIn -= 1;
                 return;
             }
-             Forca.SisIn += 1;
+            Forca.SisIn += 1;
+            return;
         }
+        else
+        {
+            Ostium.IsOpen = !Ostium.IsOpen;
+            if (Ostium.IsOpen)
+            {
+                Forca.SisIn -= 1;
+                return;
+            }
+        }
+
     }
 }
 

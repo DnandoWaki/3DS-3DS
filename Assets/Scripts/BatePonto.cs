@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BatePonto : MonoBehaviour
 {
@@ -12,8 +13,6 @@ public class BatePonto : MonoBehaviour
     [SerializeField] private float TempoMult = 2f;
 
     [SerializeField] private TextMeshProUGUI HoroloTexto;
-
-    [SerializeField] private GameObject NikeScreen;
 
     [SerializeField] private bool Veceu;
 
@@ -35,8 +34,8 @@ public class BatePonto : MonoBehaviour
 
             if (horas >= PontoAcaba)
             {
-                NikeScreen.SetActive(true);
                 Veceu = true;
+                SceneManager.LoadScene(3);
             }
 
             if (horas == 0)
