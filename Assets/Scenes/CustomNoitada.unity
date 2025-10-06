@@ -461,7 +461,7 @@ MonoBehaviour:
   ChanceMaxMove: 20
   LevelAnime: 3
   isCN: 1
-  Chave: bitchless
+  Chave: Rosa
 --- !u!195 &20908649
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2803,7 +2803,7 @@ MonoBehaviour:
   ChanceMaxMove: 20
   LevelAnime: 3
   isCN: 1
-  Chave: "gog\xF3less"
+  Chave: T
 --- !u!195 &213021659
 NavMeshAgent:
   m_ObjectHideFlags: 0
