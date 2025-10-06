@@ -460,6 +460,8 @@ MonoBehaviour:
   ChanceMinMove: 1
   ChanceMaxMove: 20
   LevelAnime: 3
+  isCN: 0
+  Chave: 
 --- !u!195 &20908649
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2800,6 +2802,8 @@ MonoBehaviour:
   ChanceMinMove: 1
   ChanceMaxMove: 20
   LevelAnime: 3
+  isCN: 0
+  Chave: 
 --- !u!195 &213021659
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5015,6 +5019,8 @@ MonoBehaviour:
   ChanceMinMove: 1
   ChanceMaxMove: 20
   LevelAnime: 3
+  isCN: 0
+  Chave: 
 --- !u!195 &438465736
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10027,6 +10033,7 @@ GameObject:
   - component: {fileID: 935421998}
   - component: {fileID: 935422000}
   - component: {fileID: 935422001}
+  - component: {fileID: 935422002}
   m_Layer: 0
   m_Name: Funcionalizador
   m_TagString: Untagged
@@ -10110,6 +10117,19 @@ MonoBehaviour:
   SisIn: 0
   Forca: 100
   EnergiaText: {fileID: 1655257362}
+--- !u!114 &935422002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935421997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ef3b083122ed642af68112a46725dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Esc
+  Sait: 27
 --- !u!1 &951198715
 GameObject:
   m_ObjectHideFlags: 0
@@ -14180,6 +14200,8 @@ MonoBehaviour:
   ChanceMinMove: 1
   ChanceMaxMove: 20
   LevelAnime: 3
+  isCN: 0
+  Chave: 
 --- !u!195 &1357275577
 NavMeshAgent:
   m_ObjectHideFlags: 0

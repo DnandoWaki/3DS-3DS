@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\LuxOstDel.cs" />
     <Compile Include="Assets\Scripts\Electrica.cs" />
     <Compile Include="Assets\Scripts\AnimeMov.cs" />
+    <Compile Include="Assets\Scripts\Esc.cs" />
     <Compile Include="Assets\Scripts\CamiraSis.cs" />
     <Compile Include="Assets\Scripts\BatePonto.cs" />
     <Compile Include="Assets\Scripts\LuxOstium.cs" />

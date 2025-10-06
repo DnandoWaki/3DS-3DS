@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CustomNoitada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\AnimeSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\BatePonto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3362D037-8505-87C8-6A16-163BC044C350}|Assembly-CSharp.csproj|C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CamiraSis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Menu.cs",
-              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Menu.cs*",
-              "RelativeToolTip": "Assets\\Menu.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Menu.cs",
+              "RelativeToolTip": "Assets\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T17:21:32.354Z",
               "EditorCaption": ""
@@ -122,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BatePonto.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BatePonto.cs",
               "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\BatePonto.cs",
               "RelativeToolTip": "Assets\\Scripts\\BatePonto.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T17:00:35.1Z",
               "EditorCaption": ""
@@ -147,26 +147,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AnimeSis.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimeSis.cs",
               "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\AnimeSis.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnimeSis.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T16:56:49.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CustomNoitada.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomNoitada.cs",
               "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\3DS-3DS\\Assets\\Scripts\\CustomNoitada.cs",
               "RelativeToolTip": "Assets\\Scripts\\CustomNoitada.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T17:05:16.86Z",
               "EditorCaption": ""
