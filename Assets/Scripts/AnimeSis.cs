@@ -25,7 +25,7 @@ public class AnimeSis : MonoBehaviour
     [SerializeField] private bool isCN;
     [SerializeField] private string Chave;
 
-    enum AnimeTipo {Usual, Tavares, Mikael}
+    enum AnimeTipo {Usual, Tavares, Mikael, TavaresAF}
 
     [SerializeField] private AnimeTipo Tipo;
 
@@ -148,6 +148,22 @@ public class AnimeSis : MonoBehaviour
                 Apareceu = true;
             }
         }
+        if (Tipo == AnimeTipo.TavaresAF)
+        {
+            if (Apareceu)
+            {
+                Apareceu = false;
+                transform.position = transform.position + new Vector3(0, -100, 0);
+                return;
+            }
+            int ChanceT = Random.Range(0, 1000000);
+            if (ChanceT == 0)
+            {
+                transform.position = Alvo[0].transform.position;
+                TemporMata = TempoMatar;
+                Apareceu = true;
+            }
+        }
     }
     public void RestartCena()
     {
@@ -157,7 +173,7 @@ public class AnimeSis : MonoBehaviour
     public void TocarMusica()
     {
         MikaelTimer += 2f;
-
+        GetComponent<AudioSource>().Play();
         MikaelTimer = Mathf.Clamp(MikaelTimer, 0f, MikaelTime);
     }
 

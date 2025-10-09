@@ -17,6 +17,7 @@ public class CamiraSis : MonoBehaviour
 
     void Start()
     {
+        JBL.SetActive(false);
         CamiraSisIU.SetActive(false);
         Came[AtualCame].SetActive(false);
         for (int i = 0; 1 < Came.Length; i++)
@@ -72,16 +73,6 @@ public class CamiraSis : MonoBehaviour
             return;
         }
         TempoRecarga -= Time.deltaTime;
-
-        if (CameAbert && AtualCame == 1)
-        {
-            JBL.SetActive(true);
-            return;
-        }
-        else
-        {
-            JBL.SetActive(false);
-        }
     }
 
     private void ShowCame()
@@ -91,11 +82,20 @@ public class CamiraSis : MonoBehaviour
             Came[AtualCame].SetActive(true);
             CamiraSisIU.SetActive(true);
             MainCamera.SetActive(false);
+            if (CameAbert && AtualCame == 1)
+            {
+                JBL.SetActive(true);
+            }
+            else
+            {
+                JBL.SetActive(false);
+            }
             return;
         }
         Came[AtualCame].SetActive(false);
         CamiraSisIU.SetActive(false);
         MainCamera.SetActive(true);
+        JBL.SetActive(false);
     }
 
     public void VaiPaCame(int Progession)
