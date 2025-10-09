@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AnimeSis : MonoBehaviour
 {
@@ -19,13 +20,33 @@ public class AnimeSis : MonoBehaviour
 
     [SerializeField] private int LevelAnime = 3;
 
+    [SerializeField] private bool Teleporta;
+
     [SerializeField] private bool isCN;
     [SerializeField] private string Chave;
+
+    enum AnimeTipo {Usual, Tavares, Mikael}
+
+    [SerializeField] private AnimeTipo Tipo;
+
+    [SerializeField] private bool Apareceu;
+
+    [SerializeField] private float TemporMata;
+    [SerializeField] private float TempoMatar;
+
+    [SerializeField] private float MikaelTimer = 20f;
+    [SerializeField] private float MikaelTime = 20f;
+
+    [SerializeField] private GameObject JBL; 
+    [SerializeField] private bool MKFury;
 
     void Start()
     {
         NMA = GetComponent<UnityEngine.AI.NavMeshAgent>();
-
+        if (Teleporta)
+        {
+            NMA.enabled = false;
+        }
         if (isCN)
         {
             LevelAnime = PlayerPrefs.GetInt(Chave, 0);
@@ -33,53 +54,116 @@ public class AnimeSis : MonoBehaviour
     }
     void Update()
     {
-        if (ResfriaTimer <= 0)
+        if (Tipo == AnimeTipo.Usual)
         {
-            var chanceCheck = Random.Range(ChanceMinMove, ChanceMaxMove);
-
-            if(chanceCheck <= LevelAnime)
+            if (ResfriaTimer <= 0)
             {
-                if (Vector3.Distance(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
+                var chanceCheck = Random.Range(ChanceMinMove, ChanceMaxMove);
+
+                if (chanceCheck <= LevelAnime)
                 {
-                    if (Alvo[AlvoAtual].GetComponent<AnimeMov>().LaPuerta)
+                    if (Vector3.Distance(transform.position, Alvo[AlvoAtual].transform.position) <= 0.5f)
                     {
-                        if (Alvo[AlvoAtual].GetComponent<AnimeMov>().Puerta.IsOpen)
+                        if (Alvo[AlvoAtual].GetComponent<AnimeMov>().LaPuerta)
                         {
-                            AlvoAtual = Alvo.Length - 1;
+                            if (Alvo[AlvoAtual].GetComponent<AnimeMov>().Puerta.IsOpen)
+                            {
+                                AlvoAtual = Alvo.Length - 1;
+                            }
+                            else
+                            {
+                                AlvoAtual = 1;
+                            }
+                        }
+                        else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
+                        {
+                            Debug.Log("Morreu");
+                            SceneManager.LoadScene(2);
                         }
                         else
                         {
-                            AlvoAtual = 1;
-                        }
-                    }
-                    else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
-                    {
-                        Debug.Log("Morreu");
-                        SceneManager.LoadScene(2);
-                    }
-                    else
-                    {
-                        AlvoAtual += 1;
-                        if (AlvoAtual >= Alvo.Length)
-                        {
-                            AlvoAtual = 0;
+                            AlvoAtual += 1;
+                            if (AlvoAtual >= Alvo.Length)
+                            {
+                                AlvoAtual = 0;
+                            }
                         }
                     }
                 }
-            }
-            
-            var ResfriaTempo = Random.Range(MinResfriaTempo, MaxResfriaTempo);
-            ResfriaTimer = ResfriaTempo;
-        }
-        else 
-        { 
-            ResfriaTimer -= Time.deltaTime;
-        }
-    NMA.destination = Alvo[AlvoAtual].transform.position;
-    }
 
+                var ResfriaTempo = Random.Range(MinResfriaTempo, MaxResfriaTempo);
+                ResfriaTimer = ResfriaTempo;
+            }
+            else
+            {
+                ResfriaTimer -= Time.deltaTime;
+            }
+            if (Teleporta)
+            {
+                transform.position = Alvo[AlvoAtual].transform.position;
+                return;
+            }
+            NMA.destination = Alvo[AlvoAtual].transform.position;
+        }
+        else if (Tipo == AnimeTipo.Tavares)
+        {
+            if (Apareceu)
+            {
+                TemporMata -= Time.deltaTime;
+            }
+            if (TemporMata <= 0)
+            {
+                Debug.Log("Morreu");
+                SceneManager.LoadScene(2);
+            }
+        }
+        else if (Tipo == AnimeTipo.Mikael)
+        {
+            // Tipo Mikael - Em desenvolvimento
+            MikaelTimer -= Time.deltaTime;
+            JBL.GetComponent<Image>().fillAmount = MikaelTimer / MikaelTime;
+            if (MikaelTimer <= 0)
+            {
+                MKFury = true;
+                Invoke("MikaelMatar", 3f);
+            }
+        }
+
+    }
+    public void CameraLigada()
+    {
+        if (Tipo == AnimeTipo.Tavares)
+        {
+            if(Apareceu) 
+            { 
+                Apareceu = false;
+                transform.position = transform.position + new Vector3(0, -100, 0);
+                return; 
+            }
+            int ChanceT = Random.Range(0, 1000);
+            if (ChanceT == 0)
+            {
+                transform.position = Alvo[0].transform.position;
+                TemporMata = TempoMatar;
+                Apareceu = true;
+            }
+        }
+    }
     public void RestartCena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void TocarMusica()
+    {
+        MikaelTimer += 2f;
+
+        MikaelTimer = Mathf.Clamp(MikaelTimer, 0f, MikaelTime);
+    }
+
+    private void MikaelMatar()
+    {
+        Debug.Log("Morreu");
+        SceneManager.LoadScene(2);
     }
 }

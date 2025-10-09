@@ -6,6 +6,8 @@ public class AnimeMov : MonoBehaviour
 
     public bool LaPuerta;
     public bool TheOffice;
+    public bool Luche;
 
     public LuxOstium Puerta;
+    public LuxOstium Lux;
 }

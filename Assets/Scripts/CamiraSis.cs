@@ -13,6 +13,7 @@ public class CamiraSis : MonoBehaviour
     [SerializeField] private float RecargaTempo = 0.1f;
     [SerializeField] private GameObject CamiraSisIU;
     [SerializeField] private Electrica Forca;
+    [SerializeField] private GameObject JBL;
 
     void Start()
     {
@@ -35,6 +36,11 @@ public class CamiraSis : MonoBehaviour
         }
         if (Input.GetKeyDown(AbrirCame))
         {
+            var Anime = FindObjectsOfType<AnimeSis>();
+            for (int i = 0; i < Anime.Length; i++)
+            {
+                Anime[i].CameraLigada();
+            }
             CameAbert = !CameAbert;
             ShowCame();
         }
@@ -66,6 +72,16 @@ public class CamiraSis : MonoBehaviour
             return;
         }
         TempoRecarga -= Time.deltaTime;
+
+        if (CameAbert && AtualCame == 1)
+        {
+            JBL.SetActive(true);
+            return;
+        }
+        else
+        {
+            JBL.SetActive(false);
+        }
     }
 
     private void ShowCame()

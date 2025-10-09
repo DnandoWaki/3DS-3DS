@@ -7,14 +7,14 @@ public class LuxCont : MonoBehaviour
 
     private void OnMouseDown()
     {
-        LuxOstium.In = !LuxOstium.In;
+        LuxOstium.MutareLux();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(LigarLux))
         {
-            LuxOstium.In = !LuxOstium.In;
+            LuxOstium.MutareLux();
         }
     }
 }

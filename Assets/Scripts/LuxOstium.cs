@@ -19,7 +19,6 @@ public class LuxOstium : MonoBehaviour
     {
         transform.position = OpenOs;
         IsOpen = true;
-
         MutareLux();
     }
 
@@ -66,7 +65,6 @@ public class LuxOstium : MonoBehaviour
                     }
                     transform.position = Vector3.Lerp(transform.position, OpenOs, FechaVelo * Time.deltaTime);
                 }
-            In = true;
             MutareLux();
         }
         
@@ -75,6 +73,12 @@ public class LuxOstium : MonoBehaviour
 
     public void MutareLux()
     {
+        if (Forca.Forca <= 0)
+        {
+            In = false;
+            Lux.SetActive(false);
+            return;
+        }
         In = !In;
 
         if (In)
