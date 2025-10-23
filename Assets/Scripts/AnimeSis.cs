@@ -117,6 +117,18 @@ public class AnimeSis : MonoBehaviour
                 SceneManager.LoadScene(2);
             }
         }
+        else if (Tipo == AnimeTipo.TavaresAF)
+        {
+            if (Apareceu)
+            {
+                TemporMata -= Time.deltaTime;
+            }
+            if (TemporMata <= 0)
+            {
+                Debug.Log("Morreu");
+                SceneManager.LoadScene(2);
+            }
+        }
         else if (Tipo == AnimeTipo.Mikael)
         {
             // Tipo Mikael - Em desenvolvimento
