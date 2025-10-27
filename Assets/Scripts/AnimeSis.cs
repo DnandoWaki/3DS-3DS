@@ -18,7 +18,7 @@ public class AnimeSis : MonoBehaviour
     [SerializeField] private int ChanceMinMove = 1;
     [SerializeField] private int ChanceMaxMove = 20;
 
-    [SerializeField] private int LevelAnime = 3;
+    [SerializeField] public int LevelAnime = 3;
 
     [SerializeField] private bool Teleporta;
 
@@ -34,10 +34,10 @@ public class AnimeSis : MonoBehaviour
     [SerializeField] private float TemporMata;
     [SerializeField] private float TempoMatar;
 
-    [SerializeField] private float MikaelTimer = 20f;
+    [SerializeField] public float MikaelTimer = 20f;
     [SerializeField] private float MikaelTime = 20f;
 
-    [SerializeField] private GameObject JBL; 
+    [SerializeField] private GameObject JBL;
     [SerializeField] private bool MKFury;
 
     void Start()
@@ -131,13 +131,20 @@ public class AnimeSis : MonoBehaviour
         }
         else if (Tipo == AnimeTipo.Mikael)
         {
-            // Tipo Mikael - Em desenvolvimento
-            MikaelTimer -= Time.deltaTime;
-            JBL.GetComponent<Image>().fillAmount = MikaelTimer / MikaelTime;
-            if (MikaelTimer <= 0)
+            if (LevelAnime != 0)
             {
-                MKFury = true;
-                Invoke("MikaelMatar", 3f);
+                MikaelTimer -= Time.deltaTime;
+                JBL.GetComponent<Image>().fillAmount = MikaelTimer / MikaelTime;
+                if (MikaelTimer <= 0)
+                {
+                    transform.position = Alvo[0].transform.position;
+                    MKFury = true;
+                    Invoke("MikaelMatar", 3f);
+                }
+            }
+            else 
+            {
+                Object.Destroy(JBL);
             }
         }
 

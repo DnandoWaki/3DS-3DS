@@ -15849,7 +15849,7 @@ GameObject:
   - component: {fileID: 1533843442}
   - component: {fileID: 1533843444}
   - component: {fileID: 1533843443}
-  - component: {fileID: 1533843445}
+  - component: {fileID: 1533843448}
   m_Layer: 5
   m_Name: MusicMK
   m_TagString: Untagged
@@ -15915,7 +15915,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533843441}
   m_CullTransparentMesh: 1
---- !u!82 &1533843445
+--- !u!82 &1533843448
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15926,9 +15926,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 7fdd0c27d26348d44a8e004660517959, type: 3}
+  m_Resource: {fileID: 8300000, guid: a4899d6c1dc0774439c807676e5f1980, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0

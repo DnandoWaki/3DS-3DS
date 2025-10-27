@@ -10,6 +10,7 @@ public class AudioScript : MonoBehaviour
     [SerializeField] private bool isCN;
     [SerializeField] private string Chave;
     [SerializeField] private AnimeSis MKTimer;
+    [SerializeField] private AnimeSis AniLVL;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,34 +18,39 @@ public class AudioScript : MonoBehaviour
         {
             MKLevel = PlayerPrefs.GetInt(Chave, 0);
         }
+        else
+        {
+            MKLevel = AniLVL.LevelAnime;
+        }
     }
 
     // Update is called once per frame
     void Update()
-    {if (MKTimer <= 0) 
+    {
+       if (MKTimer.MikaelTimer >= 0) 
        { 
-        if (MKLevel >= 1 && MKLevel <=5) 
-        { 
-           A.Play();
-        }
-        else if (MKLevel >= 6 && MKLevel <= 10)
-        {
-            B.Play();
-        }
-        else if (MKLevel >= 11 && MKLevel <= 15)
-        {
-            C.Play();
-        }
-        else if (MKLevel >= 16 && MKLevel <= 20)
-        {
-            D.Play();
-        }
-            return;
+            if (MKLevel >= 1 && MKLevel <=5) 
+            { 
+               A.playOnAwake = true;
+            }
+            else if (MKLevel >= 6 && MKLevel <= 10)
+            {
+                B.playOnAwake = true;
+            }
+            else if (MKLevel >= 11 && MKLevel <= 15)
+            {
+                C.playOnAwake = true;
+            }
+            else if (MKLevel >= 16 && MKLevel <= 20)
+            {
+                D.playOnAwake = true;
+            }
+                return;
        }
-        A.Pause();
-        B.Pause();
-        C.Pause();
-        D.Pause();
+        A.playOnAwake = false;
+        B.playOnAwake = false;
+        C.playOnAwake = false;
+        D.playOnAwake = false;
 
     }
 }
