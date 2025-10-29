@@ -39,6 +39,8 @@ public class AnimeSis : MonoBehaviour
 
     [SerializeField] private GameObject JBL;
     [SerializeField] private bool MKFury;
+    [SerializeField] private GameObject JS;
+    [SerializeField] private Camira Camira;
 
     void Start()
     {
@@ -77,8 +79,8 @@ public class AnimeSis : MonoBehaviour
                         }
                         else if (Alvo[AlvoAtual].GetComponent<AnimeMov>().TheOffice)
                         {
-                            Debug.Log("Morreu");
-                            SceneManager.LoadScene(2);
+                            PulaSusto();
+                            Invoke("AnimeMatar", 1f);
                         }
                         else
                         {
@@ -113,8 +115,8 @@ public class AnimeSis : MonoBehaviour
             }
             if (TemporMata <= 0)
             {
-                Debug.Log("Morreu");
-                SceneManager.LoadScene(2);
+                PulaSusto();
+                Invoke("AnimeMatar", 1f);
             }
         }
         else if (Tipo == AnimeTipo.TavaresAF)
@@ -125,8 +127,8 @@ public class AnimeSis : MonoBehaviour
             }
             if (TemporMata <= 0)
             {
-                Debug.Log("Morreu");
-                SceneManager.LoadScene(2);
+                PulaSusto();
+                Invoke("AnimeMatar", 1f);
             }
         }
         else if (Tipo == AnimeTipo.Mikael)
@@ -139,7 +141,8 @@ public class AnimeSis : MonoBehaviour
                 {
                     transform.position = Alvo[0].transform.position;
                     MKFury = true;
-                    Invoke("MikaelMatar", 3f);
+                    PulaSusto();
+                    Invoke("AnimeMatar", 1f);
                 }
             }
             else 
@@ -196,9 +199,15 @@ public class AnimeSis : MonoBehaviour
         MikaelTimer = Mathf.Clamp(MikaelTimer, 0f, MikaelTime);
     }
 
-    private void MikaelMatar()
+    private void  AnimeMatar()
     {
         Debug.Log("Morreu");
         SceneManager.LoadScene(2);
+    }
+
+    public void PulaSusto()
+    {
+        Camira.GetComponent<AudioSource>().Play();
+        JS.SetActive(true);
     }
 }
