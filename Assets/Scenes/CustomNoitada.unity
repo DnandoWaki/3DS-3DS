@@ -11244,6 +11244,8 @@ MonoBehaviour:
   TempoMult: 1
   HoroloTexto: {fileID: 1710942802}
   Veceu: 0
+  ProximaCena: 
+  isCN: 1
 --- !u!114 &935422001
 MonoBehaviour:
   m_ObjectHideFlags: 0

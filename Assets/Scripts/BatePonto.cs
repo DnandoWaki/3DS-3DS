@@ -16,6 +16,10 @@ public class BatePonto : MonoBehaviour
 
     [SerializeField] private bool Veceu;
 
+    [SerializeField] private string ProximaCena;
+
+    [SerializeField] private bool isCN;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,10 +36,21 @@ public class BatePonto : MonoBehaviour
             var horas = Mathf.FloorToInt(Timer / 60);
             var minutos = Mathf.FloorToInt(Timer - horas * 60);
 
-            if (horas >= PontoAcaba)
+            if (isCN){ 
+
+                if (horas >= PontoAcaba)
+                {
+                    Veceu = true;
+                    SceneManager.LoadScene(3);
+                }
+            }
+            else
             {
-                Veceu = true;
-                SceneManager.LoadScene(3);
+                if (horas >= PontoAcaba)
+                {
+                    Veceu = true;
+                    SceneManager.LoadScene(ProximaCena);
+                }
             }
 
             if (horas == 0)
