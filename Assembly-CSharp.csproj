@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\SpriteBillboard.cs" />
     <Compile Include="Assets\Scripts\Camira.cs" />
     <Compile Include="Assets\Scripts\FoneNando.cs" />
+    <Compile Include="Assets\Scripts\MostraNoitada.cs" />
     <Compile Include="Assets\Scripts\CustomNoitada.cs" />
     <Compile Include="Assets\Scripts\LuxCont.cs" />
     <Compile Include="Assets\Scripts\AudioScript.cs" />
