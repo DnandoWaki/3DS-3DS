@@ -9187,7 +9187,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 486909036}
         m_TargetAssemblyTypeName: AnimeSis, Assembly-CSharp
         m_MethodName: TocarMusica
         m_Mode: 1
