@@ -7,16 +7,26 @@ public class MostraNoitada : MonoBehaviour
     [SerializeField] private TextMeshProUGUI TextoNoitada;
 
     [SerializeField] private float DeleteTempo;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    [SerializeField] private GameObject[] ItensEmCena;
+
+    [SerializeField] private float CooldownTimer;
     void Start()
     {
+        for (int i = 0; i < ItensEmCena.Length; i++) 
+        { 
+            ItensEmCena[i].SetActive(false);
+        }
         TextoNoitada.text = NomeNoitada;
         Destroy(gameObject, DeleteTempo);
+        CooldownTimer=DeleteTempo;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        for (int i = 0; i < ItensEmCena.Length; i++)
+        {
+            ItensEmCena[i].SetActive(true);
+        }
     }
 }

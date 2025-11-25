@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 61ef72b869f09014e91a1b1a12eba641
   - enabled: 1
-    path: Assets/Scenes/Mapa.unity
+    path: Assets/Scenes/Primeiro.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/TanatosScreen.unity
-    guid: e4db7beda52e85f4d8d76930096c77fb
+    path: Assets/Scenes/Segundo.unity
+    guid: 008bac4037226904d89bfdcc8be78d5b
+  - enabled: 1
+    path: Assets/Scenes/Terceiro.unity
+    guid: 6dc36ae01eb7a184d9b43205a07a6d38
   - enabled: 1
     path: Assets/Scenes/NikeScreen.unity
     guid: 73149a88e68cbe84fafb664827078be8
+  - enabled: 1
+    path: Assets/Scenes/TanatosScreen.unity
+    guid: e4db7beda52e85f4d8d76930096c77fb
   - enabled: 1
     path: Assets/Scenes/CustomNoitada.unity
     guid: 9b16ba58e5d9277458d23a6575f3eae9

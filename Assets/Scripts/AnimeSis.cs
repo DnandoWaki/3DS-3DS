@@ -115,7 +115,7 @@ public class AnimeSis : MonoBehaviour
             }
             if (TemporMata <= 0)
             {
-                PulaSusto();
+                Application.Quit();
                 Invoke("AnimeMatar", 1f);
             }
         }
@@ -127,7 +127,7 @@ public class AnimeSis : MonoBehaviour
             }
             if (TemporMata <= 0)
             {
-                PulaSusto();
+                Application.Quit();
                 Invoke("AnimeMatar", 1f);
             }
         }
@@ -202,7 +202,7 @@ public class AnimeSis : MonoBehaviour
     private void  AnimeMatar()
     {
         Debug.Log("Morreu");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(5);
     }
 
     public void PulaSusto()

@@ -41,7 +41,7 @@ public class BatePonto : MonoBehaviour
                 if (horas >= PontoAcaba)
                 {
                     Veceu = true;
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene(4);
                 }
             }
             else

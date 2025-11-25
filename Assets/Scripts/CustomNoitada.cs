@@ -54,6 +54,6 @@ public class CustomNoitada : MonoBehaviour
             PlayerPrefs.SetInt(PrefChave[i], LevelAgress[i]);
         }
 
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(6);
     }
 }
